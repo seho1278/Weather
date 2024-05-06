@@ -1,0 +1,41 @@
+스프링 전체 기능 톺아보기
+
+스프링 프로젝트 생성 및 실행
+
+스프링 어플리케이션 부트스트래핑 하는 과정
+
+여행을 시작하기 위해 신발 끈을 묶는 것
+
+SpringApplication 생성 (new SpringApplication())
+	a. 스프링 어플리케이션의 다양한 프로퍼티(재산) 설정
+
+SpringApplication.run();
+
+SpringBootApplication 어노테이션 설명
+
+나중에 흥미가 생겼을 때 깊게 ㄱㄱ
+
+스프링 코어
+어플리케이션을 통제하는데 활용되는 기술
+
+스프링 Web MVC
+Http 요청/ 응답 처리 
+필터 , 인터셉터
+예외처리
+
+db 초기값 저장
+리소스 폴터에 sql 폴더 만든 후 insert문 작성후 동작
+
+jpa: defer-datasource-initialization: true 코드가 있어야함
+
+
+http://localhost:8080/h2-console << h2 table 주소
+
+spring 어플리케이션이 동작중이어야함
+jdbc URL 경로 일치해야함
+
+
+jackson << object mapper
+json -> object
+
+jsonpath 에 대한 설명은 깃헙 참고
